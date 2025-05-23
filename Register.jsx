@@ -29,13 +29,13 @@ const Register = () => {
             placeholder="Password"
           />
           <button type="submit" className="btn btn-neutral mt-4">
-            Login
+            Register
           </button>
         </form>
         <p>
           Already have an account? Please{" "}
           <Link className="text-blue-500 underline" to="/login">
-            Register
+            Login
           </Link>
         </p>
       </div>
